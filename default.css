@@ -1,0 +1,301 @@
+/** BASIC */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF url(images/homepage01.jpg) repeat-x left top;
+}
+
+/** FORMS */
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+/** HEADINGS */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 24px;
+}
+
+h2, .text1 {
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #FF6600;
+}
+
+h2 span, .text1 span {
+	font-weight: normal;
+	color: #000000;
+}
+
+h3 {
+	margin-bottom: 1em;
+	font-size: 11px;
+}
+
+/** TEXTS */
+
+body, th, td, input, textarea, select {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4F4F4F;
+}
+
+p, ul, ol, dl {
+	margin-top: 0px;
+	margin-bottom: 1.5em;
+	text-align: justify;
+}
+
+.text2 {
+	height: 28px;
+	padding: 7px 15px 0px 15px;
+	background:  url(images/recent_news.gif) no-repeat left top;
+	color: #FFFFFF;
+}
+
+.text2 span {
+	color: #FFFFFF;
+}
+
+.text3 {
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.list1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.list1 li {
+	float: left;
+	width: 40%;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	background: url(images/homepage16.html) no-repeat left center;
+}
+
+#mission
+{
+	padding-left:100px;
+}
+
+/** LINKS */
+
+a {
+	color: #0091CE;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.more {
+	padding-left: 9px;
+	background: url(images/homepage15.html) no-repeat left center;
+	font-weight: bold;
+}
+
+/** STYLES */
+
+.style1 {
+}
+
+.style1 a {
+}
+
+.style1 a:hover {
+}
+
+/** BACKGROUNDS */
+
+.bg1 {
+}
+
+/** MISC */
+
+.align-justify { text-align: justify; }
+.align-right { text-align: right; }
+
+img { border: none; }
+
+img.left {
+	float: left;
+	margin: 0px 15px 0px 0px;
+}
+
+img.right {
+	float: right;
+	margin: 0px 0px 0px 15px;
+}
+
+hr { display: none; }
+
+.hr1 {
+	clear: left;
+	height: 30px;
+	background: url(images/homepage10.gif) repeat-x left center;
+}
+
+.breadcrumb{
+	height: 20px;
+}
+
+/** MENU */
+
+#menu a {
+	float: left;
+	width: 104px;
+	height: 25px;
+	margin: 0px 0px 0px 8px;
+	padding: 14px 0px 0px 0px;
+	background: #FFFFFF url(images/homepage03.gif) no-repeat left top;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	color: #3D3D3D;
+}
+
+#menu a:hover, #menu .active a {
+	background: #B00000 url(images/homepage04.html) no-repeat left top;
+	color: #FFFFFF;
+}
+
+/** PAGE */
+
+#page {
+}
+
+/** SIDEBAR */
+
+#sidebar {
+}
+
+#sidebar h2, #sidebar .text1 {
+	margin: 0;
+	font-size: 14px;
+}
+
+/** CONTENT */
+
+#content {
+}
+
+#content h2, #content .text1 {
+	font-size: 16px;
+}
+
+/** CONTENT */
+
+#content-two {
+}
+
+#content-two h2, #content-two .text1 {
+	font-size: 16px;
+}
+
+/** SUBMENU */
+
+#submenu {
+	background: #C50C0C url(images/menu_top.gif) repeat-y right top;
+}
+
+#submenu ul, #submenu .bottom-bg {
+	padding-bottom: 9px;
+	background: url(images/menu_bottom.gif) no-repeat right bottom;
+}
+
+/**#submenu {
+	background: #E07125 url(images/menu_top.gif)repeat-y right top;
+}
+
+#submenu ul, #submenu .bottom-bg {
+	padding-bottom: 9px;
+	background: url(images/menu_bottom.gif) no-repeat right bottom;
+}**/
+
+#submenu a {
+	padding-left: 9px;
+	background: url(images/homepage08.gif) no-repeat left center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#submenu a:hover {
+	text-decoration: underline;
+}
+
+
+#submenu ul {
+	margin: 0px;
+	padding: 0px 0px 9px 0px;
+	list-style: none;
+}
+
+#submenu li {
+	padding: 7px 15px 9px 15px;
+	background: url(images/homepage07.gif) no-repeat right top;
+}
+
+#submenu li.first {
+	background: none;
+}
+
+
+
+/** NEWS */
+
+#news {
+}
+
+#news ul {
+	margin: 0px;
+	padding: 0px 15px;
+	list-style: none;
+}
+
+#news li {
+	padding: 10px 0px 15px 0px;
+	border-top: 1px solid #D6D6D6;
+}
+
+#news li.first {
+	border: none;
+}
+
+#news h3 {
+	margin: 0px;
+	color: #FF6600;
+}
+
+#news p {
+	margin: 0;
+	background-color:#FFD8B0;
+}
+
+/** FOOTER */
+
+#footer {
+	clear: both;
+	height: 50px;
+	padding: 25px 0px;
+	background: url(images/homepage20.gif) repeat-x left top;
+}
+
+#footer p {
+	text-align: center;
+	color: #7A7A7A;
+}
+
+#footer a {
+	color: #7A7A7A;
+}

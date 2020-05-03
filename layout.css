@@ -1,0 +1,138 @@
+/** BASIC */
+
+html, body {
+	height: 100%;
+}
+
+/** HEADER */
+
+#header {
+	width: 746px;
+	height: 114px;
+	margin: 0px auto;
+}
+
+#logo {
+	float: left;
+	width: 260px;
+	height: 114px;
+	background: url(images/phc_txt.jpg) no-repeat left top;
+}
+
+.bar {
+	height: 15px;
+	background-color:#D1D1D1;
+	clear:both;
+	
+}
+
+#logo h1 {
+	margin: 0px;
+	text-indent: -9999px;
+}
+
+#logo_birds {
+	float: right;
+	width: 290px;
+	height: 114px;
+	background-image: url(images/phc_logo.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#menu {
+	float: right;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 75px 0px 0px 0px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+/** PAGE */
+
+#page {
+	width: 746px;
+	margin: 0px auto;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+	float: left;
+	width: 194px;
+}
+
+/** SUBMENU */
+
+
+/** CONTENT */
+
+#content {
+	float: right;
+	width: 495px;
+	padding-right: 17px;
+}
+
+/** 2-COLUMN LAYOUT */
+
+.two-columns {
+	clear: both;
+	background: url(images/homepage18.gif) repeat-y 285px 0px;
+}
+
+.two-columns .column-one {
+	float: left;
+	width: 250px;
+}
+
+.two-columns .column-two {
+	float: right;
+	width: 187px;
+}
+
+/** BOX */
+
+#box {
+
+}
+
+/** BOX1 */
+
+#box1 {
+}
+
+/** BOX2 */
+
+#box2 {
+}
+
+/** BOX3 */
+
+#box3 {
+}
+
+/** BOX4 */
+
+#box4 {
+}
+
+/** BOX5 */
+
+#box5 {
+}
+
+/** BOX6 */
+
+#box6 {
+}
+
+/** BOX7 */
+
+#box7 {
+}
